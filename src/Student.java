@@ -33,8 +33,8 @@ public class Student {
 	    return this.getId() == ((Student) obj).getId();
 	}
 	
-	@Override
+	/*@Override
 	public int hashCode() {
 	    return id;
-	}
+	}*/
 }

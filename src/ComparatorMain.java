@@ -63,6 +63,8 @@ public class ComparatorMain {
 			System.out.println(
 					"Country Id: " + country.getCountryId() + "|| " + "Country name: " + country.getCountryName());
 		}
+		
+		Collections.synchronizedCollection(listOfCountries) ;
 	}
 
 }
